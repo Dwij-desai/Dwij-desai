@@ -7,11 +7,11 @@
 
 - 🔭 I’m currently working on **chat bot**
 
-- 🌱 I’m currently learning **C# , python and gd script**
+- 🌱 I’m currently learning ** python and pytourch**
 
 - 👯 I’m looking to collaborate on **any project related to Machine learning**
 
-- 💬 Ask me about **Game Developing**
+- 💬 Ask me about **Game Developing and Deep learning**
 
 - 📫 How to reach me **dwijdvd@gmail.com**
 
