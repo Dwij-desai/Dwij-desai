@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 872" width="660" height="872" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1621"/>
+      <stop offset="100%" stop-color="#0B111A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1F6FEB"/>
+      <stop offset="100%" stop-color="#2D8CF0"/>
+    </linearGradient>
+    <marker id="arw" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1 L10 6 L1 11 z" fill="#3D4A5C"/>
+    </marker>
+    <marker id="arwA" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1 L10 6 L1 11 z" fill="#1F6FEB"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="660" height="872" rx="16" fill="url(#card)" stroke="#1E2733" stroke-width="2"/>
+
+  <text x="34" y="46" fill="#E6EDF5" font-size="23" font-weight="700">Retrieval-Aware Chat Engine</text>
+  <text x="34" y="72" fill="#7A899C" font-size="17">How one request flows through the service</text>
+  <line x1="34" y1="92" x2="626" y2="92" stroke="#1E2733" stroke-width="2"/>
+
+  <!-- 1 -->
+  <rect x="34" y="118" width="404" height="74" rx="11" fill="#141C28" stroke="#26313F" stroke-width="2"/>
+  <circle cx="62" cy="155" r="15" fill="#1B2634" stroke="#2F3B4B" stroke-width="2"/>
+  <text x="62" y="161" fill="#8FA3BC" font-size="16" font-weight="700" text-anchor="middle">1</text>
+  <text x="90" y="149" fill="#E6EDF5" font-size="20" font-weight="600">Request arrives</text>
+  <text x="90" y="174" fill="#7A899C" font-size="16">POST /ask · FastAPI validation</text>
+  <line x1="236" y1="192" x2="236" y2="222" stroke="#3D4A5C" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <!-- 2 -->
+  <rect x="34" y="230" width="404" height="74" rx="11" fill="#141C28" stroke="#26313F" stroke-width="2"/>
+  <circle cx="62" cy="267" r="15" fill="#1B2634" stroke="#2F3B4B" stroke-width="2"/>
+  <text x="62" y="273" fill="#8FA3BC" font-size="16" font-weight="700" text-anchor="middle">2</text>
+  <text x="90" y="261" fill="#E6EDF5" font-size="20" font-weight="600">Load conversation memory</text>
+  <text x="90" y="286" fill="#7A899C" font-size="16">SQLite · recent turns by chat_id</text>
+  <line x1="236" y1="304" x2="236" y2="334" stroke="#3D4A5C" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <!-- 3 -->
+  <rect x="34" y="342" width="404" height="74" rx="11" fill="#141C28" stroke="#26313F" stroke-width="2"/>
+  <circle cx="62" cy="379" r="15" fill="#1B2634" stroke="#2F3B4B" stroke-width="2"/>
+  <text x="62" y="385" fill="#8FA3BC" font-size="16" font-weight="700" text-anchor="middle">3</text>
+  <text x="90" y="373" fill="#E6EDF5" font-size="20" font-weight="600">Retrieve top-k chunks</text>
+  <text x="90" y="398" fill="#7A899C" font-size="16">ChromaDB · local embeddings</text>
+  <line x1="236" y1="416" x2="236" y2="446" stroke="#3D4A5C" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <!-- 4 -->
+  <rect x="34" y="454" width="404" height="74" rx="11" fill="#141C28" stroke="#26313F" stroke-width="2"/>
+  <circle cx="62" cy="491" r="15" fill="#1B2634" stroke="#2F3B4B" stroke-width="2"/>
+  <text x="62" y="497" fill="#8FA3BC" font-size="16" font-weight="700" text-anchor="middle">4</text>
+  <text x="90" y="485" fill="#E6EDF5" font-size="20" font-weight="600">Assemble grounded prompt</text>
+  <text x="90" y="510" fill="#7A899C" font-size="16">rules + history + retrieved context</text>
+  <line x1="236" y1="528" x2="236" y2="558" stroke="#3D4A5C" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <!-- 5 primary LLM -->
+  <rect x="34" y="566" width="404" height="74" rx="11" fill="#12233D" stroke="url(#accent)" stroke-width="2.5"/>
+  <circle cx="62" cy="603" r="15" fill="#1F6FEB"/>
+  <text x="62" y="609" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="middle">5</text>
+  <text x="90" y="597" fill="#FFFFFF" font-size="20" font-weight="600">Primary LLM</text>
+  <text x="90" y="622" fill="#93B7E8" font-size="16">provider-agnostic call</text>
+
+  <!-- fallback -->
+  <rect x="458" y="566" width="168" height="74" rx="11" fill="#1B1710" stroke="#6E5426" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="542" y="597" fill="#E3B341" font-size="17" font-weight="600" text-anchor="middle">Fallback model</text>
+  <text x="542" y="620" fill="#9A8348" font-size="14" text-anchor="middle">retryable errors only</text>
+  <line x1="438" y1="603" x2="452" y2="603" stroke="#6E5426" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#arw)"/>
+  <text x="542" y="558" fill="#9A8348" font-size="14" text-anchor="middle">quota · unavailable · transient</text>
+  <path d="M542 640 L542 672 L236 672" fill="none" stroke="#6E5426" stroke-width="2.5" stroke-dasharray="5 4"/>
+
+  <line x1="236" y1="640" x2="236" y2="694" stroke="#1F6FEB" stroke-width="2.5" marker-end="url(#arwA)"/>
+
+  <!-- 6 -->
+  <rect x="34" y="702" width="404" height="74" rx="11" fill="#141C28" stroke="#26313F" stroke-width="2"/>
+  <circle cx="62" cy="739" r="15" fill="#1B2634" stroke="#2F3B4B" stroke-width="2"/>
+  <text x="62" y="745" fill="#8FA3BC" font-size="16" font-weight="700" text-anchor="middle">6</text>
+  <text x="90" y="733" fill="#E6EDF5" font-size="20" font-weight="600">Answer + source chunks</text>
+  <text x="90" y="758" fill="#7A899C" font-size="16">traceable to the origin text</text>
+  <line x1="236" y1="776" x2="236" y2="806" stroke="#3D4A5C" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <!-- 7 -->
+  <rect x="34" y="814" width="404" height="42" rx="11" fill="#101822" stroke="#26313F" stroke-width="2"/>
+  <text x="90" y="841" fill="#8FA3BC" font-size="17" font-weight="600">Persist turn · return with latency</text>
+  <circle cx="62" cy="835" r="15" fill="#1B2634" stroke="#2F3B4B" stroke-width="2"/>
+  <text x="62" y="841" fill="#8FA3BC" font-size="16" font-weight="700" text-anchor="middle">7</text>
+</svg>
