@@ -1,31 +1,78 @@
-![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
-<h1 align="center">Hi 👋, I'm Dwij Desai</h1>
-<h3 align="center">A passionate frontend developer from India and I also in into 'Game Developing' and 'Machine learning'</h3>
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1708816/screenshots/15637256/media/f9826f0af8a49462f048262a8502035b.gif">
+# Dwij Desai
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dwijdesai&label=Profile%20views&color=0e75b6&style=flat" alt="dwijdesai" /> </p>
+Final-year Computer Science & Engineering student. I build backend and applied-AI systems in
+Python — mostly at the point where retrieval, APIs and deployment meet.
 
-- 🔭 I’m currently working on **chat bot**
+Looking for a software / backend / applied-AI internship from January 2027.
 
-- 🌱 I’m currently learning ** python and pytourch**
+---
 
-- 👯 I’m looking to collaborate on **any project related to Machine learning**
+### Education
 
-- 💬 Ask me about **Game Developing and Deep learning**
+**B.Tech, Computer Science and Engineering** — Specialization: Big Data Analysis  
+Ganpat University, Institute of Computer Technology · 2023–2027 · currently 7th semester
 
-- 📫 How to reach me **dwijdvd@gmail.com**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/dwij desai" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dwij desai" height="30" width="40" /></a>
-<a href="https://instagram.com/dwij.d" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dwij.d" height="30" width="40" /></a>
-</p>
+### Focus areas
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> </p>
+- **Backend engineering** — FastAPI services, REST API design, containerised deployment
+- **Retrieval-augmented generation** — ingestion pipelines, chunking, embeddings, vector search, context-grounded generation
+- **Applied AI integration** — provider abstraction, fallback routing, tracing, evaluation scaffolding
+- **Data handling** — SQL, Pandas, multi-format ingestion (PDF, TXT, CSV, XLSX, JSON)
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dwijdesai&show_icons=true&locale=en&layout=compact" alt="dwijdesai" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dwijdesai&show_icons=true&locale=en" alt="dwijdesai" /></p>
+### Selected projects
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dwijdesai&" alt="dwijdesai" /></p>
+#### [Retrieval-Aware Chat Engine](https://github.com/Dwij-desai/Retrieval-Aware-Chat-Engine)
+*A RAG backend built as a service rather than a notebook.*  
+`FastAPI` `LangChain` `ChromaDB` `HuggingFace embeddings` `SQLite` `Docker` `Pytest` `React + TypeScript`
+
+- Multi-format ingestion (PDF / TXT / CSV / XLSX / JSON) with recursive chunking into a persistent vector store
+- Local embeddings via `bge-small-en-v1.5` — document content never leaves the machine during indexing
+- Provider abstraction across Groq and Google Gemini, with error-classified fallback: quota, model-unavailable and transient upstream failures retry against a secondary model; malformed input and auth errors fail fast
+- Persistent multi-turn conversation memory in SQLite, loaded before retrieval so follow-up questions resolve against recent context
+- Each retrieved chunk carries its source file and row/item index, so an answer can be traced back to the text that produced it
+- Containerised deployment; pytest suite covering ingestion behaviour and RAG-engine contracts
+
+The README states component status explicitly — what is implemented, what is documented, and what
+I have personally validated are three different things, and it distinguishes them.
+
+#### [Online Compiler Platform](https://github.com/Dwij-desai/Online-Compiler)
+*Browser-based code execution with containerised isolation.*  
+`React.js` `Docker` `REST API`
+
+- Web interface for compiling and running code, with execution isolated in containers
+
+#### [Course Recommendation System](https://github.com/Dwij-desai/AI_Course_Recommender)
+*Similarity-based course recommender.*  
+`Python` `Pandas` `scikit-learn`
+
+- Data preprocessing pipeline and model evaluation over course metadata
+
+---
+
+### Experience
+
+**Software Engineering Intern** — Biz App Dev · Jan – Jun 2024  
+Backend modules and REST API endpoints used by internal teams. Debugging and refactoring
+work on application stability.
+
+---
+
+### Technical skills
+
+| | |
+|---|---|
+| **Working knowledge** | Python · FastAPI · REST APIs · SQL / SQLite · Docker · Git · Linux · React · Pandas |
+| **Coursework / exposure** | C++ · Java · JavaScript · scikit-learn · PyTorch · Hadoop · Apache Spark |
+
+Two tiers on purpose. The second row is coursework and small exercises, not work I would claim
+production experience in.
+
+---
+
+### Contact
+
+dwijdvd@gmail.com · [LinkedIn](https://www.linkedin.com/in/dwij-desai-797644276/)
